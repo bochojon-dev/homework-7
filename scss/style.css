@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 17px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+body header {
+  padding: 19px 0;
+}
+body header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+body header .nav .logo span {
+  color: #173a56;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 28px;
+}
+body header .nav-items {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+body header .nav-items a {
+  color: #22343d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+body header .nav-items button {
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 4px;
+  background: #02897a;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  color: #fff;
+}
+body header .nav-items button:hover {
+  background: #fff;
+  color: #173a56;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+}
+body header .nav-items button:last-child {
+  background: white;
+  border: none;
+  padding: 0;
+}
+body header .header-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .header-contents .h-contents-img {
+  padding-top: 45px;
+  padding-bottom: 115px;
+}
+body header .header-contents .h-contents-text h1 {
+  width: 518px;
+  color: #22343d;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+body header .header-contents .h-contents-text p {
+  width: 458px;
+  color: #22343d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 18px 0 45px 0;
+}
+body header .header-contents .h-contents-text .submit1 {
+  display: flex;
+  gap: 30.5px;
+  align-items: center;
+}
+body header .header-contents .h-contents-text .submit1 .link1 {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+body header .header-contents .h-contents-text .submit1 .link1 a {
+  color: #02897a !important;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: underline !important;
+}
+body header .header-contents .h-contents-text .submit1 button {
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 41px;
+  border-radius: 4px;
+  background: #02897a;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s linear;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+body header .header-contents .h-contents-text .submit1 button:hover {
+  background: #fff;
+  color: #173a56;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+}
+
+main section .hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 65px;
+}
+main section .hero-cards {
+  background-image: url(../images/Bg.png);
+  right: 0;
+  left: 0;
+  bottom: -180px;
+  display: flex;
+  justify-content: space-between;
+  gap: 46px;
+}
+main section .hero-cards .hero-card img {
+  border-radius: 19px;
+  background: #02897a;
+  padding: 16px;
+}
+main section .hero-cards .hero-card img:first-child {
+  padding: 16px 19px;
+}
+main section .hero-cards .hero-card img:nth-child(2) {
+  padding: 16px 15px;
+}
+main section .hero-cards .hero-card img:last-child {
+  padding: 16px 17px;
+}
+main section .hero-cards h4 {
+  padding: 30px 0 13px;
+  color: #22343d;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main section .hero-cards p {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 240px;
+}
+main section button {
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 33px;
+  border-radius: 4px;
+  background: #02897a;
+  cursor: pointer;
+  color: #fff;
+  margin-bottom: 90px;
+  transition: all 0.3s linear;
+}
+main section button:hover {
+  background: #fff;
+  color: #173a56;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+}
+main section h2 {
+  color: #22343d;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 500px;
+}
+main .management-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .management-contents .m-texts h3 {
+  padding: 8px 0 23px;
+  color: #22343d;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .management-contents .m-texts p {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 486px;
+}
+main .management-contents .m-texts h4 {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 30px 0 12px;
+}
+main .support-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 150px;
+}
+main .support-contents .s-texts h3 {
+  padding: 8px 0 23px;
+  color: #22343d;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+main .support-contents .s-texts h4 {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+main .support-contents .svg-par {
+  display: flex;
+  gap: 30px;
+  padding-top: 30px;
+  align-items: center;
+}
+main .support-contents .s-texts p {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 486px;
+}
+main .support-contents .svg-par p {
+  width: 385px !important;
+}
+main .collaborative-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px 0 150px;
+}
+main .collaborative-contents .c-texts h3 {
+  padding: 8px 0 23px;
+  color: #22343d;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .collaborative-contents .c-texts p {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 486px;
+}
+main .collaborative-contents .c-texts h4 {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 30px 0 12px;
+}
+main .process-contents .p-header {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+main .process-contents .p-header h3 {
+  color: #22343d;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .process-contents .p-header p {
+  color: #22343d;
+  width: 542px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin: 0 auto;
+}
+main .process-contents .cans {
+  display: flex;
+  gap: 190px;
+  justify-content: center;
+  padding-top: 32px;
+}
+main .process-contents .cans .can {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+main .process-contents button {
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 31px;
+  border-radius: 4px;
+  background: #02897a;
+  cursor: pointer;
+  display: block;
+  margin: 50px auto 150px;
+  transition: all 0.3s linear;
+  color: #fff;
+}
+main .process-contents button:hover {
+  background: #fff;
+  color: #173a56;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+}/*# sourceMappingURL=style.css.map */
