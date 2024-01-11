@@ -302,11 +302,13 @@ main .collaborative-contents .c-texts h4 {
   padding: 30px 0 12px;
 }
 main .process-contents .p-header {
+  background: linear-gradient(180deg, #ededed 0.35%, rgba(255, 255, 255, 0) 99.63%);
   display: block;
   margin: 0 auto;
   text-align: center;
 }
 main .process-contents .p-header h3 {
+  padding-top: 55px;
   color: #22343d;
   font-size: 32px;
   font-style: normal;
@@ -352,4 +354,221 @@ main .process-contents button:hover {
   color: #173a56;
   border-radius: 4px;
   border: 1px solid #bcd0e5;
+}
+main .strategy-contents p {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 12px 0 32px;
+}
+main .strategy-contents h3 {
+  color: #22343d;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+main .strategy-contents .sc-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .strategy-contents .sc-cards .sc-card p {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 26px;
+  padding: 24px 0 12px 24px;
+}
+main .strategy-contents .sc-cards .sc-card span {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+main .strategy-contents .sc-cards .sc-card h4 {
+  padding-left: 24px;
+  color: #22343d;
+  font-style: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+main .strategy-contents .sc-cards .sc-card:hover h4 {
+  color: #02897a;
+}
+main .strategy-contents .svg1 {
+  display: flex;
+  justify-content: center;
+  padding: 64px 0 150px;
+}
+main .price-contents h2 {
+  color: #22343d;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+main .price-contents #par1 {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0 50px;
+}
+main .price-contents .sp-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 150px;
+}
+main .price-contents .sp-cards .sp-card {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  width: 322px;
+  padding: 24px 0 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.4s linear;
+}
+main .price-contents .sp-cards .sp-card:hover {
+  background: #02897a;
+}
+main .price-contents .sp-cards .sp-card:hover p,
+main .price-contents .sp-cards .sp-card:hover h3,
+main .price-contents .sp-cards .sp-card:hover h4,
+main .price-contents .sp-cards .sp-card:hover h5 {
+  color: #fff !important;
+}
+main .price-contents .sp-cards .sp-card:hover button {
+  background: #fff;
+  color: #02897a;
+}
+main .price-contents .sp-cards .sp-card .h5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 40px 0;
+}
+main .price-contents .sp-cards .sp-card h3 {
+  color: #22343d;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .price-contents .sp-cards .sp-card h4 {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main .price-contents .sp-cards .sp-card h5 {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main .price-contents .sp-cards .sp-card button {
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border-radius: 4px;
+  background: #02897a;
+  cursor: pointer;
+  display: block;
+  transition: all 0.3s linear;
+  color: #fff;
+}
+main .price-contents .sp-cards .sp-card button:hover {
+  background: #fff;
+  color: #173a56;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+}
+main .price-contents .sp-cards .sp-card .pars {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+main .price-contents .sp-cards .sp-card .pars .par1 {
+  color: #02897a;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .price-contents .sp-cards .sp-card .pars .par2-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+main .price-contents .sp-cards .sp-card .pars .par2 {
+  color: #02897a;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .price-contents .sp-cards .sp-card .pars .par3 {
+  color: #afafaf;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main .rate-contents h3 {
+  color: #22343d;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  display: flex;
+  justify-content: center;
+}
+main .rate-contents #rate {
+  color: #22343d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  display: flex;
+  letter-spacing: 0.2px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 537px;
+}
+main .rate-contents .rate-card p {
+  color: #737373;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  width: 275px;
+  padding: 16px 0;
+}
+main .rate-contents .p-img {
+  display: flex;
+  gap: 14px;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
